@@ -96,8 +96,8 @@ jobs:
             os: ubuntu-latest
             pyver: cp38-cp38
             piparch: manylinux2014_aarch64
-            numpy: numpy==1.12.1
-            cython: Cython==0.29.2
+            numpy: numpy==1.19.0
+            cython: Cython==0.29.25
 
           # Linux py builds x64
           - name: linux 2.7 i686
